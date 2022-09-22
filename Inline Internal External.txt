@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS begin</title>
+    <link rel="stylesheet" href="inline_internal_external.css">
+    <style>
+        p{
+            color: blue;
+            background-color: brown ;
+        }
+        </style>
+</head>
+<body>
+    <h4>inline internal external</h4>
+    <!-- <p style="color: red; background-color: yellow;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, eligendi.</p> -->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, eligendi.</p>
+</body>
+</html>
+
+
+/* code of inline_internal_external.css line 8
+p
+{
+    color: yellowgreen;
+    background-color: pink;
+} */
