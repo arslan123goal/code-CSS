@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    <style>
+        .container
+        {
+            display: flex;
+        }
+        .card
+        {
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: burlywood;
+            box-shadow: 10px 13px green;   /*shadow for right and bottom*/
+            box-shadow: -10px -13px green; /*shadow for left and top*/
+            box-shadow: 10px 13px 7px green; /*here 7px for blurr radius*/
+            box-shadow: -10px -13px 7px green; 
+            box-shadow: 10px 13px 7px 5px green; /*here 5px is to spread radius*/
+            box-shadow: 10px 13px 7px 5px rgba(71, 72, 73, 0.5); /*a=alpha --> control darkness of color*/ 
+
+            box-shadow: inset 3px 5px green;
+            box-shadow: 3px 5px green, 4px 6px red;
+        }
+        .card h3
+        {
+            text-shadow: 3px 2px red;
+            text-shadow: 3px 2px 2px white;
+            text-shadow: -3px -2px 2px white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h3>This is C++ course</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A assumenda eveniet eum ducimus.</p>
+        </div>
+        <div class="card" id="card2">
+            <h3>This is HTML course</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius ullam debitis eos aut!</p>
+        </div>
+        <div class="card" id="card3">
+            <h3>Card3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam esse vel accusantium pariatur?</p>
+        </div>
+    </div>
+</body>
+</html>
