@@ -24,6 +24,7 @@
         }
         header::before
         {
+        /* background: Url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover; */
             background-image: url('GFF.jpg');
             background-repeat: no-repeat;
             background-position: center center;
