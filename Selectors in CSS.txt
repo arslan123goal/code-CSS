@@ -40,6 +40,10 @@
         {
             border: 2px solid red;
         }
+	p.center
+        {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -51,5 +55,7 @@
     </div>
     <span>This is span</span>
     <footer>This is footer</footer>
+    <h3 class="center">This is a heading</h3>
+    <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 </body>
 </html>
