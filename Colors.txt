@@ -21,6 +21,11 @@
         #ThirdPara {
             color: #5C5C5C
         }
+
+        /* hsl --> hex - saturation - lightness*/
+        #forthPara{
+            background-color: hsl(1, 100%, 50%);
+        }
     </style>
 </head>
 
@@ -29,6 +34,7 @@
     <p id="FirstPara">This is a paragraph</p>
     <p id="SecPara">This is 2<sup>nd</sup> paragraph</p>
     <p id="ThirdPara">This is 3<sup>rd</sup> paragraphs</p>
+    <h2 id="forthPara">Paragraph</h2>
 </body>
 
 </html>
