@@ -48,6 +48,22 @@
             /* background-position: bottom left; */
             background-position: bottom right;
         }
+
+	/* uncomment  h1 and p tag to see the background-attachment Property*/
+        p{
+            height: auto;
+            width: 300px;
+        }
+        body{
+            background-image: url(s_dx_1.jpg);
+            background-repeat: no-repeat;
+            background-position: 1200px 50px;
+            /* background-position: 1200px top; */
+            /* background-position: right top; */
+            
+            /* background-attachment: scroll; */
+            background-attachment: fixed;
+        }
     </style>
 </head>
 <body>
@@ -60,5 +76,9 @@
 
     <h3>This is third heading</h3>
     <p id="ThirdPara">This is third paragraph</p>
+
+	<!-- 
+    <h1>background image attachment</h1>
+    <p>add lorem 1000 to vs-code to see background image attachment property</p> -->
 </body>
 </html>
