@@ -16,6 +16,9 @@
             border-color: green;
             border-style: solid; */
             border-radius: 7px;
+	    
+            /*pink top, green right, yellow bottom, blue left*/
+            border-color: pink green yellow blue;
         }
         #SecondPara
         {
