@@ -19,9 +19,16 @@
         font-weight: bold;
         font-style: oblique;
     }
+    .vari
+    {
+        /* font-variant: normal; */
+        font-variant: small-caps;
+    }
 </style>
 <body>
     <h4>Fonts in CSS</h4>
     <p>Using <span>fonts</span> in CSS</p>
+
+    <p class="vari">What is font variant</p>
 </body>
 </html>
