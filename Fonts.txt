@@ -30,6 +30,8 @@
     {
         font-family: "Sofia", sans-serif;
     }
+    /* font - style, variant, weight, size, font-family */
+    /* font: italic small-caps bold 12px/30px Georgia, serif; */
 </style>
 <body>
     <h4>Fonts in CSS</h4>
