@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Fonts</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
 </head>
 <style>
     p
@@ -24,11 +25,17 @@
         /* font-variant: normal; */
         font-variant: small-caps;
     }
+    h1
+    {
+        font-family: "Sofia", sans-serif;
+    }
 </style>
 <body>
     <h4>Fonts in CSS</h4>
     <p>Using <span>fonts</span> in CSS</p>
 
     <p class="vari">What is font variant</p>
+
+    <h1 class="font-effect-fire">Sofia on fire</h1>
 </body>
 </html>
